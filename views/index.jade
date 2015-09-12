@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  div(id="content" class="content")
+    input(id="userName" placeholder="User Name")
+    input(id="psswd" placeholder="Password" type="password")
+  .div
+  div(id="button-area" class="button-area")
+   a(href="#" onclick="sendLogin();" class="submit-button") Submit
+   a(href="/register" class="reg-button") Register

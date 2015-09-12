@@ -1,0 +1,121 @@
+.body_container {
+position: absolute;
+top: 20%;
+left: 33%;
+width: 33%;
+/*transform: translateY(-50%);*/
+
+padding-top: 60px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+/*
+border: 1px solid white;
+border-radius: 2px;
+*/
+}
+
+
+.body_container {
+    
+/*  background:linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);*/
+      height: 100%;
+     display: -webkit-box;
+ }
+
+.input-fields input{
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+border-color: #1D9CC7;
+border-radius: 2px;
+height: 40px;
+padding: 0.5em;
+margin-bottom:10%;
+width:99%;
+font-size: 20;
+text-align: center;
+}
+
+input[type=text]:focus {
+	border: 1px solid #1D9CC7;
+	
+}
+
+#sign_in_button {
+
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+padding: 10px 42% 10px 42%;
+text-align:center;
+text-decoration:none;
+
+border: solid 1px #8e6af5;
+background-color: #b29af8;
+background-image: -webkit-linear-gradient(top,#b29af8,#9174ed);
+font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+}
+
+#sign_up_button {
+border: solid 1px #26759e;
+background-color: #3093c7;
+background-image: -webkit-linear-gradient(top,#3093c7,#1c5a85);
+
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+width: 50%;
+height: 30px;
+border-style:none;
+
+font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+
+
+}
+
+
+#sign_up_button:hover{
+border: solid 1px #26759e;
+background-color: #26759e;
+background-image: linear-gradient(transparent,rgba(0,0,0,0.15) 75%,rgba(0,0,0,0.40));
+}
+
+
+#sign_in_button:hover{
+border: 1px solid #198eff;
+background-color: #198eff;
+background-image: -webkit-linear-gradient(top,#8e6af5,#6d47e7);
+}
+
+a.forgot_password_link{
+font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+/*margin-left:13%;*/
+text-decoration: none;
+font-size: 12px;
+}
+
+.logo{
+margin-left:41%;
+transform: translateY(-50%);
+}
+
+#fixed_clinic_name {
+font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+margin-left:9%;
+font-weight: bold;
+font-size: 20;
+color: #6B238E;
+position: relative;
+margin-bottom: 7%;
+}
+
+#clinic_title {
+font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+text-align:center;
+color: #6B238E;
+font-weight: bold;
+font-size: 25;
+transform: translateY(-50%);
+
+}
+

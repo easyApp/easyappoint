@@ -1,0 +1,236 @@
+.body_container {
+position: absolute;
+top: 13%;
+left: 33%;
+width: 33%;
+/*transform: translateY(-50%);*/
+
+padding-top: 60px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+/*
+border: 1px solid white;
+border-radius: 2px;
+*/
+}
+
+
+.body_container {
+    
+/*  background:linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+	height: 100%;      
+     display: -webkit-box;
+*/
+ }
+
+.input-fields input{
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+border-color: #1D9CC7;
+border-radius: 2px;
+height: 20px;
+padding: 0.5em;
+margin-bottom: 8%;
+width: 93.5%;
+font-size: 20;
+text-align: center;
+}
+
+input[type=text]:focus {
+	border: 1px solid #1D9CC7;
+	
+}
+
+#sign_in_button {
+
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+height: 18px;
+border-radius: 2px;
+padding: 10px 42% 10px 42%;
+text-align:center;
+
+margin-bottom: 20px;
+border: solid 1px #8e6af5;
+background-color: #b29af8;
+background-image: -webkit-linear-gradient(top,#b29af8,#9174ed);
+font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+}
+
+#sign_up_button {
+border: 1px solid #15aeec;
+height: 23px;
+background-color: #49c0f0;
+background-image: linear-gradient(to bottom,#49c0f0,#2cafe3);
+-moz-border-radius: 2px;
+text-align:center;
+/*
+position: absolute;
+top: 45%;
+
+margin-bottom: 20px;
+*/
+-webkit-border-radius: 2px;
+border-radius: 2px;
+
+
+padding: 10px 33% 7px 33%;
+
+border-style:none;
+font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+}
+
+
+#sign_up_button:hover {
+/*
+border: solid 1px #1090c3;
+*/
+border: solid 1px #1ab0ec;
+background-color: #1ab0ec;
+background-image: -webkit-linear-gradient(top,#1ab0ec,#1a92c2);
+
+}
+
+
+#sign_in_button:hover{
+border: solid 1px #8e6af5;
+background-color: #8e6af5;
+background-image: -webkit-linear-gradient(top,#8e6af5,#6d47e7);
+}
+
+.forgot_password_link{
+font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+text-decoration: none;
+font-size: 20px;
+text-align: center;
+
+margin-top: 7%;
+
+
+}
+
+.logo{
+margin-left:41%;
+transform: translateY(-50%);
+}
+
+#fixed_clinic_name {
+font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+margin-left:9%;
+font-weight: bold;
+font-size: 20;
+color: #6B238E;
+position: relative;
+margin-bottom: 7%;
+}
+
+#clinic_title {
+font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+text-align:center;
+color: #6B238E;
+font-weight: bold;
+font-size: 25px;
+transform: translateY(-50%);
+
+}
+
+.submit{
+	opacity:0.52;
+/*	display: block;
+	border: solid 1px #e6e6e6;
+	background-color: #e6e6e6;
+	background-image: -webkit-linear-gradient(top,#e6e6e6,#e6e6e6);
+*/
+}
+
+#create_account_button {
+
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+height: 18px;
+border-radius: 2px;
+display: inline-block;
+border: solid 1px #8e6af5;
+background-color: #8e6af5;
+background-image: -webkit-linear-gradient(top,#8e6af5,#6d47e7);
+font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+padding: 10px 20% 10px 20%;
+}
+
+#create_account_title {
+font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+text-align:center;
+color: #6B238E;
+font-weight: bold;
+font-size: 25px;
+transform: translateY(-50%);
+
+}
+
+#reset {
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+height: 18px;
+border-radius: 2px;
+display: inline-block;
+font-family: "Helvetica Neue",Helvetica,Verdana,Tahoma,Arial,sans-serif;
+border: 1px solid #495267;
+background-color: #606c88;
+background-image: linear-gradient(to bottom, #606c88, #3f4c6b);
+padding: 10px 7% 10px 7%;
+}
+
+#reset:hover {
+border: 1px solid #363d4c;
+background-color: #4b546a;
+background-image: linear-gradient(to bottom, #4b546a, #2c354b);
+
+}
+
+#processing_icon {
+position: absolute;
+top: 50%;
+right: 44%;
+}
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
