@@ -66,4 +66,15 @@ function disablePage(){
 	});
 }
 
+	$('#myNavbar ul li').on('click',function(){
+    $('#myNavbar ul li').removeClass('active');
+    $(this).addClass('active');
+	});
+
+	$(function(){
+	var selct = $("#header").attr("page");
+  $("#header").load("/header?linkId=\""+selct+"\"");
+  $("#footer").load("/footer");
+	});
+
 });

@@ -6,4 +6,12 @@ router.get('/', function(req, res, next) {
   res.render('loginScreen', { title: 'Express' });
 });
 
+router.get('/header', function(req, res, next) {
+  res.render('header', { title: 'Express' });
+});
+
+router.get('/footer', function(req, res, next) {
+  res.render('footer', { title: 'Express' });
+});
+
 module.exports = router;
